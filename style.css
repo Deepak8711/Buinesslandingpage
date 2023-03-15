@@ -1,0 +1,111 @@
+.main{
+    background-color: black;
+    margin: 0;
+}
+nav{
+    
+    display: flex;
+    justify-content: space-between;
+    
+    box-sizing: border-box;
+    border-bottom: 3px solid white;
+    
+}
+.business_name
+{
+    /* border: 2px solid gray; */
+    margin-left:8vw;
+    color: white;
+    
+}
+.side
+{
+    margin-right: 8vw;
+    text-decoration: none;
+  
+    
+    /* border: 2px solid green */
+    
+    
+}
+.side li 
+{
+   display: inline;
+   text-decoration: none;
+   color: white;
+   margin: 1vw;
+   font-size:1.5vw;
+   
+   
+}
+.side a 
+{
+    text-decoration: none;
+    
+} 
+/* @media only screen and (max-width: 600px) {
+   nav {
+flex-direction: column
+
+   }
+   .side, .business_name
+   {
+    margin: 5px;
+    
+   }
+  } */
+  .container
+  {
+    color: white;
+    display: flex;
+    position: relative;
+    
+  }
+  .landing{
+    font-size:10vw;
+    margin-left:3vw;
+   
+    font-weight: bolder;
+    line-height: 5%;
+    font-family: arial;
+  }
+  .image img
+  {
+    height:40vh;
+  width: 40vw;
+  position: absolute;
+  top: 20vw;
+  right:7vw;
+  }
+  .sec-main
+  { margin:100px;
+    display: flex;
+    
+  }
+  
+  
+  .about h1
+  { 
+    
+    font-size:100px;
+    font-family:arial;
+    font-weight:700;
+    margin: 20px 0px 0px 70px;
+    justify-content: center;
+    
+  }  
+  
+  .image-one img{
+    width: 20%;
+    border: 5px solid green;
+   
+   
+  }
+  .about p{
+
+    margin:50px;
+    font-size:1.5vw;
+
+
+  }
+  
